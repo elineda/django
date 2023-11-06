@@ -148,6 +148,13 @@ async def aget_list_or_404(klass, *args, **kwargs):
     return obj_list
 
 
+def make_toast():
+    """
+    Return "toast"
+    """
+    return "toast"
+
+
 def resolve_url(to, *args, **kwargs):
     """
     Return a URL appropriate for the arguments passed.
